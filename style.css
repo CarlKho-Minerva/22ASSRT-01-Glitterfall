@@ -1,0 +1,28 @@
+/* Style the body element to allow the y-position to be moved */
+body {
+    position: relative;
+    background-color: gray;
+}
+
+/* Style the container element to fill the viewport */
+#glitterfall-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Style the button with some basic styling */
+#shake-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
